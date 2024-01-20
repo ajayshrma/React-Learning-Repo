@@ -3,7 +3,7 @@
 https://react.dev/ <<-- official docs
 
 ```javascript
-React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.
+React is the library[`cool dude`] for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.
 
 Without framework project bnana hai toh hm vite or parcel la use krenge.
 
@@ -118,3 +118,35 @@ useState is one of hook we use commonly, in our myviteapp we write a code for un
 checkout please.
 ```
 
+# Virtual Dom 
+
+https://github.com/acdlite/react-fiber-architecture
+
+```js
+virtual dom is not used now a days then why we need to understand VM DOM , so the Ans.is to understand the behind the scene how react work 
+
+"ReactDOM.createRoot(document.getElementById('root')).render();"
+
+createRoot method : createRoot dom like strcuture tyar krta hai jaise browser k pass dom hota hai vesa hi 
+
+reson behind dom tree creation becoz: toh y browser k main dom k apne dom se compare krt hai or unhi chizo ko update krta hai jo UI m update hui h 
+
+What is reconciliation?
+
+The algorithm React uses to diff one tree with another to determine which parts need to be changed.
+
+update: 
+
+A change in the data used to render a React app. Usually the result of `setState`. Eventually results in a re-render.
+
+
+```
+# Talwind Css for vite
+
+https://tailwindcss.com/docs/guides/vite
+
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+```
